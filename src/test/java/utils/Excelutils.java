@@ -39,11 +39,11 @@ public class Excelutils {
 
     }
 
-//    public static void main(String [] args) throws IOException {
-//       getRowCount();
-////       getCellData(int );
-//
-//    }
+   public static void main(String [] args) throws IOException {
+      getRowCount();
+      getCellData(int );
+
+   }
 
     public static void getCellData(int rowNum, int colNum) {
 //            String excelPath = "./data/TestData.xlsx";
