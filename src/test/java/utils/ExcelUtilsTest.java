@@ -26,8 +26,8 @@ public class ExcelUtilsTest {
         System.out.println("Time Taken in Min. :" +TimeUnit.MINUTES.convert(exec, TimeUnit.NANOSECONDS));
         System.out.println("The program takes "+exec+" nanoseconds that is "+inSeconds+" seconds to execute." + "min :"+ min );
 
-//        excel.getCellData(1,0);
-//        excel.getCellData(1,1);
+       excel.getCellData(1,0);
+       excel.getCellData(1,1);
 //        excel.getCellData(1,2);
 //        excel.getCellData(1,3);
 //        excel.getCellData(2,0);
